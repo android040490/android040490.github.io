@@ -7249,9 +7249,7 @@ blockquote {
       top: 0;
       right: 0;
       width: 17px;
-      height: 17px;
-      content: "";
-      background-image: url("/src/images/icons/close.jpg"); }
+      height: 17px; }
 
 @media (min-width: 450px) {
   .gallery-section_gallery {
