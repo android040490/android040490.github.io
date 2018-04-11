@@ -12918,6 +12918,20 @@ $(function () {
     });
 
     $(window).trigger("resize");
+
+    //  Page navigation
+
+    $(".navbar-nav").on("click", "a", function (event) {
+
+        event.preventDefault();
+
+        var id = $(this).attr('href');
+
+        var topSize = $(id).offset().top;
+
+        $('body,html').animate({ scrollTop: topSize }, 500);
+    });
+
     // CHOICE OF SHOES
 
     $(".product-item").on("click", function (event) {
