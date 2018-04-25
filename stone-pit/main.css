@@ -7134,20 +7134,20 @@ body, html {
   visibility: hidden; }
 
 .carousel .carousel-item img {
-  height: 100vh; }
+  width: 100vw; }
 
 .carousel .slide_btn {
   display: block;
   position: absolute;
+  top: 50%;
+  margin-top: -50px;
   width: 100px;
   height: 100px;
   background: #fff;
-  top: 50%;
   -webkit-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
-  margin-top: -50px;
   opacity: 1; }
   .carousel .slide_btn i {
     font-size: 40px;
